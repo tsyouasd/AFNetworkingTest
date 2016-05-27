@@ -1,0 +1,16 @@
+//
+//  NetworkProject-Prifix.pch
+//  NetworkProject
+//
+//  Created by JordanCZ on 16/5/25.
+//  Copyright © 2016年 JordanCZ. All rights reserved.
+//
+
+#ifndef NetworkProject_Prifix_pch
+#define NetworkProject_Prifix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.NetworkProject
+#import <AFNetworking.h>
+
+#endif /* NetworkProject_Prifix_pch */
