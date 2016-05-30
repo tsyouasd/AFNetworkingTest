@@ -1,20 +1,25 @@
 //
-//  AsynchronousOperation.m
+//  NetOperation.m
+//  NetworkProject
+//
+//  Created by JordanCZ on 16/5/30.
+//  Copyright © 2016年 JordanCZ. All rights reserved.
 //
 
-#import "AsynchronousOperation.h"
+#import "NetOperation.h"
 
-@interface AsynchronousOperation ()
+@interface NetOperation ()
 
 @property (nonatomic, getter = isFinished, readwrite)  BOOL finished;
 @property (nonatomic, getter = isExecuting, readwrite) BOOL executing;
 
 @end
 
-@implementation AsynchronousOperation
-
-@synthesize finished  = _finished;
+@implementation NetOperation
+@synthesize finished = _finished;
 @synthesize executing = _executing;
+
+
 
 - (id)init {
     self = [super init];
@@ -25,22 +30,19 @@
     return self;
 }
 
-- (void)start {
+- (void)start{
     if ([self isCancelled]) {
         self.finished = YES;
         return;
     }
-
     self.executing = YES;
-
     [self main];
 }
 
-- (void)main {
-    NSAssert(![self isMemberOfClass:[AsynchronousOperation class]], @"AsynchronousOperation is abstract class that must be subclassed");
-    NSAssert(false, @"AsynchronousOperation subclasses must override `main`.");
+- (void)main{
+    
 }
-             
+
 - (void)completeOperation {
     self.executing = NO;
     self.finished  = YES;

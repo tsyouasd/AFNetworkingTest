@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "NetHttpClient+Request.h"
 
 @interface FirstViewController ()
 {
@@ -64,7 +65,11 @@
             }];
         }];
     }
-}
+    
+    [[NetHttpClient sharedClient] getRequestWithUrl:@"https://www.baidu.com" Parameters:nil complateBlock:^(NSDictionary *responseData, NSURLSessionDataTask *operationTask, BOOL isSuccess) {
+        NSLog(@"response: %@",operationTask.response);
+    }];
+ }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

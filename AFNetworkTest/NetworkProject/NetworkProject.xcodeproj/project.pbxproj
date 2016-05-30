@@ -16,9 +16,9 @@
 		5F0E0C871CF4578D0049DAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E0C861CF4578D0049DAA0 /* Assets.xcassets */; };
 		5F0E0C8A1CF4578D0049DAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0E0C881CF4578D0049DAA0 /* LaunchScreen.storyboard */; };
 		5F0E0C961CF543390049DAA0 /* NetHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E0C951CF543390049DAA0 /* NetHttpClient.m */; };
-		5F54F4AF1CF84C7000EBA596 /* AFHTTPSessionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4AA1CF84C6F00EBA596 /* AFHTTPSessionOperation.m */; };
-		5F54F4B01CF84C7000EBA596 /* AFURLSessionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4AC1CF84C6F00EBA596 /* AFURLSessionOperation.m */; };
-		5F54F4B11CF84C7000EBA596 /* AsynchronousOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4AE1CF84C6F00EBA596 /* AsynchronousOperation.m */; };
+		5F54F4B41CFC1F0000EBA596 /* NetHttpClient+Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4B31CFC1F0000EBA596 /* NetHttpClient+Request.m */; };
+		5F54F4BA1CFC2A4400EBA596 /* NetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4B91CFC2A4400EBA596 /* NetOperation.m */; };
+		5F54F4BD1CFC2B7700EBA596 /* AFNetSessionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F54F4BC1CFC2B7700EBA596 /* AFNetSessionOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,12 +37,14 @@
 		5F0E0C941CF543390049DAA0 /* NetHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetHttpClient.h; sourceTree = "<group>"; };
 		5F0E0C951CF543390049DAA0 /* NetHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetHttpClient.m; sourceTree = "<group>"; };
 		5F0E0C971CF543720049DAA0 /* NetworkProject-Prifix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkProject-Prifix.pch"; sourceTree = "<group>"; };
-		5F54F4A91CF84C6F00EBA596 /* AFHTTPSessionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionOperation.h; sourceTree = "<group>"; };
-		5F54F4AA1CF84C6F00EBA596 /* AFHTTPSessionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionOperation.m; sourceTree = "<group>"; };
-		5F54F4AB1CF84C6F00EBA596 /* AFURLSessionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionOperation.h; sourceTree = "<group>"; };
-		5F54F4AC1CF84C6F00EBA596 /* AFURLSessionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionOperation.m; sourceTree = "<group>"; };
-		5F54F4AD1CF84C6F00EBA596 /* AsynchronousOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousOperation.h; sourceTree = "<group>"; };
-		5F54F4AE1CF84C6F00EBA596 /* AsynchronousOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousOperation.m; sourceTree = "<group>"; };
+		5F54F4B21CFC1F0000EBA596 /* NetHttpClient+Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetHttpClient+Request.h"; sourceTree = "<group>"; };
+		5F54F4B31CFC1F0000EBA596 /* NetHttpClient+Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NetHttpClient+Request.m"; sourceTree = "<group>"; };
+		5F54F4B61CFC227200EBA596 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		5F54F4B71CFC22FF00EBA596 /* URLServiceAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLServiceAPI.h; sourceTree = "<group>"; };
+		5F54F4B81CFC2A4400EBA596 /* NetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetOperation.h; sourceTree = "<group>"; };
+		5F54F4B91CFC2A4400EBA596 /* NetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetOperation.m; sourceTree = "<group>"; };
+		5F54F4BB1CFC2B7700EBA596 /* AFNetSessionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetSessionOperation.h; sourceTree = "<group>"; };
+		5F54F4BC1CFC2B7700EBA596 /* AFNetSessionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetSessionOperation.m; sourceTree = "<group>"; };
 		D3DDCFAD1139F69A6BC72C70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F95CF12803F0F957E6BBF5FA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD8C04A7C66E7016B8942EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		5F0E0C921CF542F70049DAA0 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				5F54F4B51CFC218000EBA596 /* Macro */,
 				5F0E0C931CF543100049DAA0 /* Network */,
 			);
 			name = General;
@@ -127,14 +130,23 @@
 			children = (
 				5F0E0C941CF543390049DAA0 /* NetHttpClient.h */,
 				5F0E0C951CF543390049DAA0 /* NetHttpClient.m */,
-				5F54F4A91CF84C6F00EBA596 /* AFHTTPSessionOperation.h */,
-				5F54F4AA1CF84C6F00EBA596 /* AFHTTPSessionOperation.m */,
-				5F54F4AB1CF84C6F00EBA596 /* AFURLSessionOperation.h */,
-				5F54F4AC1CF84C6F00EBA596 /* AFURLSessionOperation.m */,
-				5F54F4AD1CF84C6F00EBA596 /* AsynchronousOperation.h */,
-				5F54F4AE1CF84C6F00EBA596 /* AsynchronousOperation.m */,
+				5F54F4B81CFC2A4400EBA596 /* NetOperation.h */,
+				5F54F4B91CFC2A4400EBA596 /* NetOperation.m */,
+				5F54F4B21CFC1F0000EBA596 /* NetHttpClient+Request.h */,
+				5F54F4B31CFC1F0000EBA596 /* NetHttpClient+Request.m */,
+				5F54F4BB1CFC2B7700EBA596 /* AFNetSessionOperation.h */,
+				5F54F4BC1CFC2B7700EBA596 /* AFNetSessionOperation.m */,
 			);
 			name = Network;
+			sourceTree = "<group>";
+		};
+		5F54F4B51CFC218000EBA596 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5F54F4B61CFC227200EBA596 /* UtilsMacro.h */,
+				5F54F4B71CFC22FF00EBA596 /* URLServiceAPI.h */,
+			);
+			name = Macro;
 			sourceTree = "<group>";
 		};
 		7D88811770ED7DC6E81507C3 /* Pods */ = {
@@ -276,13 +288,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0E0C961CF543390049DAA0 /* NetHttpClient.m in Sources */,
-				5F54F4B01CF84C7000EBA596 /* AFURLSessionOperation.m in Sources */,
+				5F54F4BD1CFC2B7700EBA596 /* AFNetSessionOperation.m in Sources */,
 				5F0E0C821CF4578D0049DAA0 /* SecondViewController.m in Sources */,
 				5F0E0C7C1CF4578D0049DAA0 /* AppDelegate.m in Sources */,
+				5F54F4B41CFC1F0000EBA596 /* NetHttpClient+Request.m in Sources */,
+				5F54F4BA1CFC2A4400EBA596 /* NetOperation.m in Sources */,
 				5F0E0C7F1CF4578D0049DAA0 /* FirstViewController.m in Sources */,
 				5F0E0C791CF4578D0049DAA0 /* main.m in Sources */,
-				5F54F4AF1CF84C7000EBA596 /* AFHTTPSessionOperation.m in Sources */,
-				5F54F4B11CF84C7000EBA596 /* AsynchronousOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

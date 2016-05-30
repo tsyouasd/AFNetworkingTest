@@ -12,5 +12,8 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.NetworkProject
 #import <AFNetworking.h>
+#import "UtilsMacro.h"
+#import "URLServiceAPI.h"
+
 
 #endif /* NetworkProject_Prifix_pch */
